@@ -2,6 +2,9 @@
 ## プロジェクト設定
 black + flake8 を基本とする。
 
+なお、blackとflake8のルールでコンフリクトする部分があるため、flake8のルールを緩和する setup.cfg をプロジェクトルートに配置すること。
+
+
 ## 各種ルール
 [Effective Python](https://www.amazon.co.jp/dp/0134853989/)を原則として準拠する。
 以下、特に守りたい点を列挙していく。
